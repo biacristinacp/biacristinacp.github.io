@@ -1,0 +1,37 @@
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  }
+#inicio{
+  margin-left: auto;
+  margin-right: auto;
+}
+.foto_com_mouse{
+  width: 220px;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.foto_sem_mouse{
+  width: 220px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+#acender, #escuro{
+  cursor: pointer;
+}
+.escuro{
+  background-color: #333;
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
+.claro{
+  background-color: white;
+  color:#333;
+  transition: 1s;
+  cursor: pointer;
+}
+
